@@ -1,0 +1,166 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-size: 26px;
+	font-weight: 400;
+}
+
+section {
+	padding: 70px 0px 10px;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 80px;
+	text-align: center;
+}
+
+[class*='__container'] {
+	max-width: 1450px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header {
+	width: 100%;
+	padding: 40px 15px;
+	background: #085c4c;
+	box-shadow: 0px 4px 4px rgb(31 171 196 / 51%);
+	font-size: 24px;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.header__nav-list {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.about__container {
+	display: flex;
+	gap: 30px;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about__image-wrap {
+	max-width: 450px;
+	max-height: 450px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 5px solid #085c4c;
+	box-shadow: 3px 3px 10px rgb(31 171 196 / 25%),
+		-3px 3px 10px rgb(31 171 196 / 25%);
+}
+
+.about__image-wrap img {
+	height: 100%;
+}
+
+.about__info {
+	max-width: 55%;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	text-align: center;
+	line-height: 1.2em;
+}
+
+.info__title,
+.info__position {
+	line-height: 1.5em;
+	margin-bottom: 10px;
+}
+
+.info__description {
+	text-align: justify;
+}
+
+.section__title span {
+	padding: 0px 20px;
+}
+
+.section__title {
+	position: relative;
+	color: #085c4c;
+}
+
+.section__title::before,
+.section__title::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 50%;
+	width: 30%;
+	height: 2px;
+	background: #085c4c;
+	box-shadow: 0px 1px 3px rgb(31 171 196 / 30%),
+		0 -1px 3px rgb(31 171 196 / 30%);
+}
+
+.section__title::before {
+	left: 8%;
+}
+
+.section__title::after {
+	right: 8%;
+}
+
+.skills__container {
+	row-gap: 20px;
+}
+.section__title {
+	margin-bottom: 30px;
+}
+.skills__skills-items {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 30px;
+	column-gap: 4%;
+	align-items: center;
+	justify-content: center;
+}
+.skills-items__item {
+	width: 9%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.item__icon-wrap {
+	width: 60px;
+	height: 60px;
+	background-color: #f0f8ff;
+	border: 2px solid #085c4c;
+	padding: 2px;
+	margin-bottom: 10px;
+}
+.item__title {
+	text-align: center;
+	font-family: 'Merriweather';
+}
+
+@media (max-width: 950px) {
+	.about__container {
+		flex-wrap: wrap;
+
+		justify-content: center;
+	}
+
+	.about__info {
+		max-width: 90%;
+	}
+
+	.skills-items__item {
+		width: 18%;
+	}
+}

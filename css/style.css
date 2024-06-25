@@ -9,7 +9,7 @@ body {
 }
 
 section {
-	padding: 70px 0px 10px;
+	padding-top: 60px;
 }
 
 h1,
@@ -43,6 +43,10 @@ h3 {
 .header__nav-list {
 	display: flex;
 	justify-content: space-evenly;
+}
+
+.header__nav-item {
+	position: relative;
 }
 
 /* ABOUT */
@@ -96,6 +100,7 @@ h3 {
 .section__title {
 	position: relative;
 	color: #085c4c;
+	margin-bottom: 50px;
 }
 
 .section__title::before,
@@ -123,10 +128,6 @@ h3 {
 
 .skills__container {
 	row-gap: 20px;
-}
-
-.section__title {
-	margin-bottom: 30px;
 }
 
 .skills__skills-items {
@@ -169,7 +170,7 @@ h3 {
 /* EDUCATION */
 
 section.education {
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 }
 
 .education__items {
@@ -204,7 +205,8 @@ section.education {
 }
 
 .school-name:after,
-.contact__link span::after {
+.contact__link span::after,
+.nav-item__link::after {
 	opacity: 0;
 	content: '';
 	position: absolute;
@@ -258,6 +260,11 @@ section.education {
 	transition: all 0.6s;
 }
 
+.footer .year {
+	display: flex;
+	align-items: center;
+}
+
 .contacts__item:not(:last-child) {
 	margin-bottom: 15px;
 }
@@ -274,7 +281,8 @@ section.education {
 	transition: all 0.6s;
 }
 
-.contact__link span::after {
+.contact__link span::after,
+.nav-item__link::after {
 	background-color: #ffffff;
 }
 
@@ -339,7 +347,8 @@ section.education {
 	}
 
 	.education__title-wrap:hover .school-name::after,
-	.contacts__item:hover .contact__link span::after {
+	.contacts__item:hover .contact__link span::after,
+	.header__nav-item:hover .nav-item__link::after {
 		width: 100%;
 		opacity: 1;
 		right: 0%;
@@ -355,8 +364,10 @@ section.education {
 		fill: #ffffff;
 	}
 
-	.contacts__item:hover .contact__link {
+	.contacts__item:hover .contact__link,
+	.header__nav-item:hover .nav-item__link {
 		color: #ffffff;
+		transition: all 0.6s;
 	}
 
 	.social__item:hover {

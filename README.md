@@ -5,7 +5,9 @@ Welcome to my resume repository! This repository contains the latest version of 
 ### Contents
 Resume.pdf: A downloadable PDF version of my resume.
 README.md: This file, providing an overview and additional context for the repository.
-**[Resume Deploy](https://tetiana-ket.github.io/resume_portfilio/index.html)**
+
+## [Resume Deploy](https://tetiana-ket.github.io/resume_portfilio/index.html)
+
 ![image](https://github.com/Tetiana-KET/resume_portfilio/assets/99186560/014c66a3-de5e-4211-9b87-0928d595cea6)
 
 ### Usage

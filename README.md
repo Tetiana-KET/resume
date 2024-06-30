@@ -3,10 +3,11 @@
 Welcome to my resume repository! This repository contains the latest version of my professional resume, showcasing my skills, experience, and accomplishments. It is designed to provide a comprehensive overview of my qualifications for potential employers and collaborators.
 
 ### Contents
-Resume.pdf: A downloadable PDF version of my resume.
-README.md: This file, providing an overview and additional context for the repository.
+- [Resume.pdf](https://github.com/Tetiana-KET/resume_portfilio/blob/main/Tatiana%20Bezkorovaina%20front-end%20developer.pdf): A downloadable PDF version of my resume.
+- README.md: This file, providing an overview and additional context for the repository.
 
-## [Resume Deploy](https://tetiana-ket.github.io/resume_portfilio/index.html)
+### [Resume-portfolio Deploy](https://tetiana-ket.github.io/resume_portfilio/index.html)
+### [Resume Deploy](https://tetiana-ket.github.io/Resume-short/)
 
 ![image](https://github.com/Tetiana-KET/resume_portfilio/assets/99186560/014c66a3-de5e-4211-9b87-0928d595cea6)
 
